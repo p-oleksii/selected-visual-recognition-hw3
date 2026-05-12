@@ -1,0 +1,17 @@
+# ---- Deep learning ----
+torch>=2.1
+torchvision>=0.16
+
+# ---- Image I/O ----
+tifffile>=2024.1.30
+imagecodecs>=2024.1.1     # required by tifffile for compressed TIFF variants
+
+# ---- Numerics / classical CV ----
+numpy>=1.26
+scikit-image>=0.22        # provides skimage.measure.label (connected components)
+
+# ---- COCO format & evaluation ----
+pycocotools>=2.0.7
+
+# ---- Data augmentation ----
+albumentations>=1.4.0
